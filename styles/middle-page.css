@@ -1,0 +1,159 @@
+.middle-page{
+  position: relative;
+  padding-top: 30px;
+  margin-left: 239px;
+  background-color: white;
+  margin-top: 0px
+}
+.stories{
+  background-color: white;
+  display: flex;
+  width: 700px;
+  padding-left: 30px; 
+}
+
+.story{
+  position: relative;
+  display: flex;
+  
+  flex-direction: column;
+  width: 60px;
+  padding-left: 20px;
+
+}
+
+.story-ring{
+ 
+ width: 60px;
+}
+
+.story-profile-pic{
+  position: absolute; 
+  z-index: 2;
+  right: 4px;
+  top: 4px;
+  
+  height: 52px;
+  border-radius: 32px;
+  object-fit: contain;
+}
+
+.story-profile-name{
+  padding-top: 6px;
+  font-size: smaller;
+  
+}
+
+.post-container{
+  background-color: white;
+  padding-top: 25px;
+  width: 470px;
+  border-bottom: 1px solid rgb(214, 212, 212);
+  margin-left: 124px;
+  
+}
+
+.post-header{
+  display: flex;
+  position: relative;
+}
+
+.post-story-ring{
+  width: 41px; 
+}
+
+.post-profile-picture{
+  position: absolute;
+  top: 9px;
+  left: 3px;
+  object-fit: contain;
+  height: 35px;
+  border-radius: 18px;
+}
+.verified{
+  object-fit: contain;
+  padding-top: 3px;
+}
+.post-channel-name{
+  background-color: white;
+  padding-left: 6.5px;
+  display: flex;
+  align-items: center;
+}
+
+.posted-time{
+  color: rgb(115, 115, 115);
+  width: 100px;
+}
+
+.post-more{
+  width: 200px;
+}
+
+.post-more-icon{
+  padding-left: 225px;
+  padding-top: 18px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.post{
+  width: 470px;
+  object-fit: contain;
+}
+
+.post-icons{
+  display: flex;
+  padding-top: 8px;
+  width: 490px;
+}
+
+.post-icons-left-section{
+ display: flex;
+ justify-content: space-between;
+ width: 110px;
+}
+
+.like-comment-share{
+  width: 30px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.post-stats p{
+  font-size: 14px;
+}
+
+.post-comments{
+  color: rgb(115, 115, 115); 
+  font-size: 15px;
+}
+
+.save-icon{
+  padding-left: 335px;
+  width: 30px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.all-caught-up-container {
+  padding-bottom: 50px;
+  margin-top: 40px;
+  width: 490px;
+  margin-left: 115px;
+  border-bottom: 1px solid rgb(214, 212, 212);
+}
+
+.all-caught-up {
+  line-height: 25px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.description-links{
+  color: rgba(7, 102, 146, 0.979)
+}
+
+

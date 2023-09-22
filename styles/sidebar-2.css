@@ -1,0 +1,113 @@
+.sidebar-2{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin-right: 30px;
+  width: 340px;
+  
+  background-color: white;
+}
+
+.first-sidebar-2{
+  padding-top: 32px;
+ 
+}
+
+.account-indicator{
+  display: grid;
+  grid-template-columns: 60px 1fr 56px;
+  align-items: center;
+}
+
+.account-indicator img{
+  height: 55px;
+  border-radius: 30px;
+}
+
+.my-account-info{
+  padding-left: 10px;
+  font-size: 15px
+}
+
+.username{
+  color: rgb(145, 145, 145);
+}
+
+.suggested-for-you {
+  margin-top: 16px;
+  margin-bottom: 1px;
+  display: grid;
+  grid-template-columns: 150px 56px;
+  justify-content: space-between;
+}
+
+.sfy-text { /* .suggested-for-you text */
+  margin-left: 12px;
+  color: rgb(115, 115, 115);
+  font-size: 15px;
+}
+
+.sfy-see { /* .suggested-for-you see all link */
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.suggestions img {
+  width: 35px;
+  border-radius: 25px;
+  margin-left: 12px;
+  border: 1px solid rgb(179, 169, 169);
+}
+
+.suggestions {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 65px 1fr 56px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information {
+  color: rgb(145, 145, 145);
+  font-size: 12px;
+}
+
+.follow, .switch {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(49, 142, 218);
+}
+
+.account-info, .switch {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.account-info {
+  line-height: 20px;
+}
+
+.second-sidebar2 {
+  padding-top: 30px;
+  display: grid;
+  grid-template-rows: 40px 50px;
+  font-size: 14px;
+}
+.links-section, .copyright {
+  width: 360px;
+  word-wrap: break-word;
+  font-size: 12px;
+  color: rgb(185, 180, 180);
+}
+.links-section a {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(185, 180, 180);
+}
+.links-section a:hover {
+  text-decoration: underline;
+}
+.copyright {
+  padding-top: 12px;
+}
